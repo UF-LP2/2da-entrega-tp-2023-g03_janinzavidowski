@@ -1,0 +1,501 @@
+id,first_name,last_name,sintomas,horario_entrada
+1,Fiona,Melliard,Vertigo con afectacion vegetativa,14:16
+2,Christen,Fallis,Sincope,17:50
+3,Warner,Meddick,Otalgias,16:33
+4,Lesli,Pashba,Vertigo con afectacion vegetativa,2:31
+5,Tate,Callery,Sincope,18:39
+6,Red,Braunds,Cefalea brusca,19:44
+7,Noami,Biddles,Dolores inespecificos leves,13:40
+8,Merridie,Bartrum,Politraumatismo grave,1:18
+9,Beniamino,Desquesnes,Vertigo con afectacion vegetativa,19:04
+10,Edeline,Bockh,Paresia,4:38
+11,Andria,Ketchell,Taumatismos,20:54
+12,Della,Thynn,Urgencias psiquiatricas,10:29
+13,Tasha,Alekseicik,Paresia,1:52
+14,Shelagh,Wignall,Dolores inespecificos leves,17:57
+15,Phyllys,Nelligan,Coma,1:34
+16,Web,Bartoshevich,Urgencias psiquiatricas,4:00
+17,Lilian,Jermin,Convulsion,9:29
+18,Dmitri,Spenclay,Convulsion,2:59
+19,Bink,MacCambridge,Cefalea brusca,17:37
+20,Rennie,Wrixon,Odontalgias,14:50
+21,Hersh,Arpur,Hipertension arterial,21:05
+22,Cherie,Filipychev,Convulsion,21:52
+23,Georgiana,Winfield,Hipertension arterial,18:32
+24,Boyce,Bartoli,Isquemia,1:49
+25,Kaspar,Withers,Paresia,23:03
+26,Randee,Craighall,Convulsion,17:36
+27,Cortney,Jenteau,Dolores inespecificos leves,5:19
+28,Colene,Frederick,No urgente,0:34
+29,Boyd,Hasslocher,No urgente,2:31
+30,Marigold,Heersema,No urgente,4:21
+31,Janey,Elston,Paresia,14:09
+32,Heidi,Swidenbank,Urgencias psiquiatricas,11:46
+33,Simone,Gooderidge,Cefalea brusca,15:00
+34,Krystyna,Bonafant,No urgente,3:45
+35,Susette,Dowdle,Otalgias,10:09
+36,Maribeth,Geroldini,Dolores inespecificos leves,16:23
+37,Marijo,Celez,Politraumatismo grave,14:17
+38,Con,Hritzko,Taumatismos,18:34
+39,Care,Boshere,Cefalea brusca,1:19
+40,Aldous,Wimlet,Taumatismos,11:20
+41,Trisha,Bridgland,Otalgias,6:47
+42,Kass,Thorald,Coma,0:15
+43,Ula,Ringer,Sincope,3:37
+44,Kirbee,Connal,Odontalgias,9:13
+45,Tamara,Semarke,Taumatismos,15:33
+46,Kaylil,Forsyth,Sincope,10:07
+47,Nita,Stigers,Dolores inespecificos leves,8:06
+48,Aggie,Klimkowski,Convulsion,1:46
+49,Vladimir,Blackwood,Politraumatismo grave,9:59
+50,Deerdre,Ailmer,Hemorragia digestiva,15:27
+51,Enoch,Patrickson,Hemorragia digestiva,0:36
+52,Curr,Dougherty,Convulsion,5:08
+53,Agustin,Challin,Urgencias psiquiatricas,16:43
+54,Claude,Dilgarno,Odontalgias,4:12
+55,Evelina,Cron,Vertigo con afectacion vegetativa,23:51
+56,Cassie,Gerdts,Hemorragia digestiva,9:04
+57,Etta,Farherty,Cefalea brusca,1:10
+58,Elwood,Stenhouse,Sincope,20:14
+59,Glennie,Cufley,Isquemia,1:38
+60,Sande,Gregh,Paresia,1:57
+61,Abbye,Trangmar,Paresia,21:32
+62,Aurthur,Foden,Vertigo con afectacion vegetativa,14:19
+63,Reuven,Pacht,Taumatismos,6:46
+64,Fredek,Dunleavy,Coma,2:33
+65,Rutter,Ismail,Hipertension arterial,19:35
+66,Sylvan,Brosnan,No urgente,6:28
+67,Thorvald,Cochern,No urgente,9:15
+68,Isabeau,Reeveley,Paresia,6:57
+69,Ailis,Dicken,Cefalea brusca,18:32
+70,Karna,Darrington,Hipertension arterial,1:49
+71,Artemis,Pigford,Paresia,8:18
+72,Todd,Ropkes,Urgencias psiquiatricas,9:26
+73,Cassandry,Ginity,Odontalgias,5:19
+74,Gwendolyn,Brasseur,Paresia,8:40
+75,Ingaberg,Heardman,Coma,18:13
+76,Stefania,Woolf,Otalgias,1:47
+77,Maurizia,Vennings,Otalgias,14:34
+78,Miner,Tiron,Dolores inespecificos leves,8:11
+79,Vinni,Staley,Cefalea brusca,3:12
+80,Brittani,Bullier,Otalgias,8:44
+81,Ilysa,Kase,Urgencias psiquiatricas,12:20
+82,Filip,Blaisdell,No urgente,10:20
+83,Sal,Bullent,No urgente,1:29
+84,Odey,Heyburn,Hemorragia digestiva,9:42
+85,Griffy,Caslett,No urgente,7:21
+86,Eleen,Jemmett,Politraumatismo grave,0:32
+87,Corbie,Metrick,Vertigo con afectacion vegetativa,17:50
+88,Goddard,Splevings,Hipertension arterial,14:30
+89,Zacharias,Eiler,Urgencias psiquiatricas,13:03
+90,Didi,Avramovich,Convulsion,16:56
+91,Koressa,Purdey,Convulsion,12:39
+92,Rriocard,Yanez,Cefalea brusca,17:53
+93,Tansy,Stokes,Hemorragia digestiva,13:13
+94,Blake,Barnham,Cefalea brusca,21:21
+95,Thurstan,Hulbert,Odontalgias,12:24
+96,Rozamond,Crawforth,Convulsion,14:55
+97,Kylen,Facey,Dolores inespecificos leves,17:01
+98,Louis,McGlade,Coma,13:21
+99,Tiffie,Kirkness,Coma,16:14
+100,Leanor,Piecha,Hemorragia digestiva,11:59
+101,Violante,Dye,Sincope,20:31
+102,Aylmer,Janic,Odontalgias,7:05
+103,Tamarra,Sisey,Vertigo con afectacion vegetativa,17:47
+104,Stephanie,Bithell,Hemorragia digestiva,17:14
+105,Hillier,Kernes,Coma,18:50
+106,Dannie,Toma,Coma,4:45
+107,Enrichetta,Coniam,Otalgias,9:12
+108,Marc,O'Heaney,Hipertension arterial,12:58
+109,Ari,Ierland,Sincope,1:44
+110,Von,Schiell,Dolores inespecificos leves,15:29
+111,Ricki,Sherwill,Hemorragia digestiva,5:09
+112,Marianna,Laflin,Odontalgias,3:07
+113,Marisa,Breckwell,Hemorragia digestiva,16:48
+114,Antonino,Piatkowski,Hemorragia digestiva,14:55
+115,Baird,Knighton,Paresia,12:44
+116,Bettina,Semble,Cefalea brusca,2:57
+117,Deeyn,Iveagh,Dolores inespecificos leves,20:10
+118,Tawsha,Dunderdale,Convulsion,14:41
+119,Wit,Oxbury,Cefalea brusca,8:40
+120,Zebedee,Maryin,Odontalgias,19:32
+121,Averill,Hagerty,Sincope,16:44
+122,Farrel,Sissot,Otalgias,22:53
+123,Horten,Soda,Convulsion,17:39
+124,Stavro,Feldhorn,Vertigo con afectacion vegetativa,20:07
+125,Molly,Folling,No urgente,19:02
+126,Joy,Stegell,Odontalgias,21:36
+127,Tuesday,Hiom,Odontalgias,10:25
+128,Hester,Segebrecht,Paresia,11:38
+129,Enos,Muslim,Cefalea brusca,7:26
+130,Shaine,Birdall,Isquemia,21:31
+131,Rois,Elkington,No urgente,16:42
+132,Franciskus,Nancarrow,Isquemia,19:52
+133,Isis,Halworth,Cefalea brusca,18:10
+134,Kane,Paskell,Dolores inespecificos leves,23:23
+135,Carolee,Ionn,Coma,22:03
+136,Carmine,Bellany,Odontalgias,15:09
+137,Miof mela,Graeme,Vertigo con afectacion vegetativa,8:01
+138,Ashton,Darnody,Dolores inespecificos leves,15:31
+139,Aurlie,Saffle,Odontalgias,0:56
+140,Kelwin,Glanister,Sincope,8:58
+141,Uta,Celle,Taumatismos,23:45
+142,Ericha,Quillinane,Hemorragia digestiva,12:17
+143,Birch,Scad,Odontalgias,19:44
+144,Leigha,Glew,Hipertension arterial,8:18
+145,Felic,Stainsby,Coma,19:14
+146,Sandie,Hollyland,Hipertension arterial,13:45
+147,Chaddy,Harwood,Hipertension arterial,23:15
+148,Simeon,Wardel,Paresia,19:45
+149,Carson,Chasmer,Isquemia,2:51
+150,Alvis,Alenichev,Isquemia,12:32
+151,Caty,Richold,Dolores inespecificos leves,10:33
+152,Billy,Ferne,Odontalgias,20:55
+153,Cirillo,Durant,Coma,9:09
+154,Chucho,Spellard,Politraumatismo grave,12:27
+155,Wendall,Kindall,Dolores inespecificos leves,3:11
+156,Maximilian,Eshmade,Dolores inespecificos leves,10:23
+157,Patty,Gollard,Hipertension arterial,8:52
+158,Correy,Fruen,Vertigo con afectacion vegetativa,13:36
+159,Padriac,Berendsen,Odontalgias,4:40
+160,Toby,Gross,Hemorragia digestiva,20:58
+161,Barnebas,Narey,Coma,4:28
+162,Margaretta,Tesimon,Odontalgias,7:22
+163,Miriam,Segebrecht,Isquemia,7:55
+164,Goddart,Birchenhead,Dolores inespecificos leves,10:09
+165,Kym,Bennington,Sincope,0:45
+166,Jefferson,Weinberg,Cefalea brusca,22:46
+167,Faina,Parsonson,Hipertension arterial,0:12
+168,Gina,Gregan,Sincope,2:06
+169,Ennis,Fibbens,Coma,15:50
+170,Lacey,Lippard,Taumatismos,19:09
+171,Saunder,Lawes,Odontalgias,19:40
+172,Francesco,Niezen,Taumatismos,20:03
+173,Ariadne,Landrieu,Odontalgias,11:50
+174,Brandie,Klaussen,Hipertension arterial,3:02
+175,Camella,Titman,Politraumatismo grave,20:05
+176,Rita,Baack,Cefalea brusca,14:28
+177,Dolli,Doget,Otalgias,0:12
+178,Nanon,Emer,Dolores inespecificos leves,3:00
+179,Stanford,Scard,Politraumatismo grave,17:48
+180,Herbert,Sundin,Hemorragia digestiva,17:40
+181,Hurleigh,Gladhill,Urgencias psiquiatricas,6:51
+182,Annabelle,Otterwell,Cefalea brusca,23:43
+183,Almire,Beamish,Cefalea brusca,16:30
+184,Leora,MacBarron,No urgente,8:29
+185,Charlot,Waddingham,Vertigo con afectacion vegetativa,10:04
+186,Larry,Ferrick,Otalgias,13:26
+187,Meryl,Aysh,No urgente,11:56
+188,Karisa,Hallick,Taumatismos,19:27
+189,Rachele,Marthen,Isquemia,3:14
+190,Tonie,Hollingdale,Hemorragia digestiva,14:27
+191,Ivar,Swaton,No urgente,7:46
+192,Berthe,Leyborne,Otalgias,20:03
+193,Liva,Bodocs,Convulsion,6:09
+194,Melantha,Duesberry,Hemorragia digestiva,14:10
+195,Tally,Zoppo,No urgente,13:16
+196,Feodora,Reame,Cefalea brusca,19:28
+197,Marketa,Hug,Sincope,19:27
+198,Sydel,Ramsey,Isquemia,15:53
+199,Allene,Padwick,Paresia,19:18
+200,Lianne,Babinski,No urgente,2:15
+201,Lorain,Ziemke,Coma,19:58
+202,Cherise,De L'Isle,Politraumatismo grave,2:34
+203,Farrel,Stockbridge,Otalgias,23:09
+204,Clem,Lambourne,Otalgias,15:16
+205,Cicily,Saffin,Hemorragia digestiva,23:08
+206,Mike,De Few,Otalgias,21:38
+207,Katrinka,Exposito,Isquemia,2:00
+208,Estell,Pippard,Sincope,18:55
+209,Giuseppe,Scrogges,Isquemia,9:55
+210,Johann,Nel,Otalgias,20:54
+211,Jack,Ickowics,Otalgias,21:51
+212,Jerry,Frankland,Vertigo con afectacion vegetativa,9:34
+213,Kaleb,Bruhnsen,Sincope,3:54
+214,Jacintha,Benjefield,Coma,23:30
+215,Joellen,Pinn,Isquemia,3:04
+216,Marika,Murrock,Dolores inespecificos leves,10:52
+217,Paula,Panswick,Cefalea brusca,20:29
+218,Redd,Auchterlony,Taumatismos,4:54
+219,Pearline,Ebhardt,Convulsion,14:16
+220,Lombard,McAdam,Otalgias,9:40
+221,Mar,McFaul,Dolores inespecificos leves,18:40
+222,Charis,Povey,Coma,6:18
+223,Yolanthe,Tripett,Hipertension arterial,14:57
+224,Charlot,John,Isquemia,14:01
+225,Ailene,McClay,Paresia,15:17
+226,Ola,Feehan,Vertigo con afectacion vegetativa,7:41
+227,Jayme,Selland,Urgencias psiquiatricas,20:21
+228,Lauren,Okroy,Vertigo con afectacion vegetativa,0:41
+229,Ida,Helkin,Dolores inespecificos leves,22:08
+230,Nappy,Curteis,Politraumatismo grave,19:48
+231,Roxana,Steart,Convulsion,16:40
+232,Shena,Hakking,Hipertension arterial,5:11
+233,Arnaldo,Bellew,Convulsion,14:46
+234,Glenda,Pulley,Coma,16:04
+235,Shalne,Vogeler,Coma,19:08
+236,Randal,Spincke,Taumatismos,14:54
+237,Ted,Garwill,Vertigo con afectacion vegetativa,14:13
+238,Demetris,Karpychev,Convulsion,19:42
+239,Marcelline,Spurdens,Paresia,23:39
+240,Sheila,Dinnington,No urgente,22:06
+241,Leontyne,Francey,Isquemia,18:20
+242,Zolly,Leese,Dolores inespecificos leves,0:46
+243,Cornelius,Kob,Sincope,23:29
+244,Martica,Barszczewski,Convulsion,18:57
+245,Cybil,Royl,Hipertension arterial,19:12
+246,Jesus,Moorfield,Hemorragia digestiva,16:23
+247,Aeriell,Querrard,Isquemia,22:01
+248,Lisabeth,Jakubovski,Hipertension arterial,11:52
+249,Kennedy,Putten,Hemorragia digestiva,16:37
+250,Horace,Probet,Cefalea brusca,4:10
+251,Eldridge,Faucherand,Isquemia,10:50
+252,Maxie,Deinert,Coma,1:47
+253,Leontine,Tettley,Coma,0:11
+254,Carmelita,Willbourne,Otalgias,7:07
+255,Gram,Lyes,Isquemia,4:31
+256,Reagan,Uman,Convulsion,5:17
+257,Megen,Mallender,Cefalea brusca,4:35
+258,Shantee,Blevin,Convulsion,6:00
+259,Clotilda,Coyle,Hipertension arterial,2:31
+260,Haily,Spur,Hemorragia digestiva,1:39
+261,Donovan,Devall,Sincope,21:04
+262,Evan,Fenelow,Politraumatismo grave,5:45
+263,Aarika,Foard,Hipertension arterial,8:35
+264,Bret,Yegorchenkov,Paresia,9:31
+265,Jeramie,Seakes,Isquemia,1:06
+266,Rosy,Braxton,Sincope,20:08
+267,Anabel,De La Coste,Cefalea brusca,16:45
+268,Justino,Battershall,Sincope,12:44
+269,Tamera,Spaight,Odontalgias,10:51
+270,Darius,Klein,Cefalea brusca,21:33
+271,Rutherford,Gurwood,Taumatismos,19:00
+272,Rutter,Kindon,Dolores inespecificos leves,19:18
+273,Sarge,Kalaher,Coma,19:02
+274,Kristos,Collibear,Politraumatismo grave,7:09
+275,Hale,Drayson,Cefalea brusca,16:51
+276,Leland,Wickey,Hipertension arterial,3:13
+277,Eldredge,Summerill,Isquemia,23:33
+278,Ronnica,Hatcher,Paresia,4:01
+279,Lilllie,Abramov,Isquemia,12:48
+280,Tanhya,Monni,Politraumatismo grave,20:18
+281,Radcliffe,Ivey,Sincope,15:13
+282,Malanie,Chalkly,Isquemia,15:42
+283,Hillier,Rasch,Vertigo con afectacion vegetativa,6:24
+284,Devina,Tuxwell,No urgente,11:25
+285,Augustus,Yankov,Urgencias psiquiatricas,9:12
+286,Roth,Mazzia,Vertigo con afectacion vegetativa,10:01
+287,Hyacinthe,Liebmann,Hipertension arterial,16:25
+288,Sabrina,Wathall,No urgente,22:53
+289,Ode,Harland,Paresia,11:27
+290,Caesar,Sailer,Coma,14:46
+291,Tillie,Mylan,Politraumatismo grave,1:04
+292,Shaylyn,Orpwood,Paresia,2:53
+293,Garv,St. Pierre,Urgencias psiquiatricas,3:42
+294,Kore,Doncaster,Urgencias psiquiatricas,21:38
+295,Dawna,Pellett,Convulsion,3:38
+296,Lenette,Romera,Politraumatismo grave,22:34
+297,Elwyn,Somerscales,Dolores inespecificos leves,14:28
+298,Minnaminnie,Stickland,Dolores inespecificos leves,11:53
+299,Nicki,Chiene,Otalgias,9:34
+300,Beck,Aiskrigg,Vertigo con afectacion vegetativa,12:56
+301,Elsinore,Phillot,Sincope,11:38
+302,Gusella,Jossel,Otalgias,16:02
+303,Charlton,Playhill,Hemorragia digestiva,17:07
+304,Lurlene,Hysom,Otalgias,6:00
+305,Gisella,Fagan,Otalgias,10:32
+306,Marita,Lyndon,Taumatismos,15:42
+307,Giraud,Dilgarno,Urgencias psiquiatricas,12:47
+308,Cloris,Ratledge,Odontalgias,2:54
+309,Craig,Gabbitus,Vertigo con afectacion vegetativa,23:42
+310,Ban,Towl,No urgente,19:34
+311,Ringo,Heynen,Hipertension arterial,13:17
+312,Dody,Chazette,Isquemia,16:11
+313,Lark,People,Hipertension arterial,5:15
+314,Justin,Gyver,Isquemia,5:25
+315,Mannie,Portwain,Hipertension arterial,22:08
+316,Gregorio,Blincko,Taumatismos,7:53
+317,Meaghan,Hirsthouse,Paresia,23:26
+318,Arleta,Boarder,Sincope,21:26
+319,Koo,Moses,Odontalgias,8:44
+320,Hyacinth,Friary,Paresia,13:33
+321,Ricki,Magnay,Dolores inespecificos leves,21:37
+322,Felix,Scrammage,Hipertension arterial,1:23
+323,Hilda,Kinningley,Urgencias psiquiatricas,21:02
+324,Ange,Jacqueminot,Paresia,16:18
+325,Charmane,Makeswell,No urgente,9:35
+326,Helenka,Norvill,Coma,16:46
+327,Eran,Samsonsen,Isquemia,16:58
+328,Claudius,Hefford,No urgente,3:40
+329,Mirna,Giametti,Taumatismos,13:45
+330,Shannan,Valeri,Vertigo con afectacion vegetativa,12:03
+331,Nerita,Plail,Taumatismos,12:34
+332,Bart,Iorio,Paresia,21:47
+333,Shelly,Shea,Cefalea brusca,6:42
+334,Nadiya,Mettricke,Politraumatismo grave,21:44
+335,Charles,Sawdy,Hemorragia digestiva,8:42
+336,Sibby,Filip,Convulsion,5:40
+337,Rebbecca,Northey,Cefalea brusca,12:43
+338,Tybie,Rawe,Odontalgias,10:58
+339,Philis,MacNeish,Coma,16:43
+340,Aimee,Roman,Politraumatismo grave,6:51
+341,Shirlee,Visco,Isquemia,12:59
+342,Art,Kobiela,Cefalea brusca,12:29
+343,Cassi,Bretland,Convulsion,9:47
+344,Javier,Broszkiewicz,Hipertension arterial,11:15
+345,Cleo,Howden,Hemorragia digestiva,3:50
+346,Mahalia,Karolewski,Hemorragia digestiva,2:27
+347,Cyb,Charles,Paresia,19:28
+348,Katina,Minichi,Odontalgias,10:33
+349,Danielle,Braidley,Isquemia,4:20
+350,Consuelo,Jiroutek,Hipertension arterial,22:30
+351,Stoddard,Izakson,Paresia,5:58
+352,Garv,Amber,Vertigo con afectacion vegetativa,13:39
+353,Crissy,Brunnen,Hipertension arterial,23:06
+354,Dreddy,MacAdie,Paresia,22:17
+355,Prissie,Seeney,Convulsion,16:04
+356,Maggi,Tomowicz,Odontalgias,14:29
+357,Lucilia,O'Keevan,Convulsion,5:56
+358,Mame,Theobalds,Convulsion,0:26
+359,Gerrard,Jandl,Paresia,17:31
+360,Cheston,Vause,No urgente,6:52
+361,Bertram,McSweeney,Hemorragia digestiva,8:08
+362,Maxim,Toke,Paresia,11:09
+363,Gabie,Duligall,Vertigo con afectacion vegetativa,5:31
+364,Iosep,Sally,Otalgias,7:04
+365,Jenn,Bourthouloume,Vertigo con afectacion vegetativa,13:57
+366,Gaylord,Houndsom,Dolores inespecificos leves,17:42
+367,Elaine,Lacotte,Sincope,5:24
+368,Ripley,Spinney,Cefalea brusca,0:25
+369,Archibaldo,Dryburgh,Cefalea brusca,14:07
+370,Cacilia,Bront,Hemorragia digestiva,18:30
+371,Alberta,Klaffs,Paresia,0:33
+372,Yancey,Tomkiss,Coma,13:09
+373,Howie,Dicks,Isquemia,16:08
+374,Ardenia,Hearne,Coma,10:47
+375,Merle,Temlett,No urgente,22:41
+376,Richie,Munslow,Politraumatismo grave,10:12
+377,Rufus,Chazelle,Odontalgias,14:43
+378,Emmanuel,Calverd,Politraumatismo grave,23:45
+379,Arlee,Stuehmeier,Hipertension arterial,20:23
+380,Hodge,Husthwaite,Odontalgias,12:44
+381,Charles,Caudelier,Paresia,11:20
+382,Shana,Shawley,No urgente,19:58
+383,Shaun,Jouannot,Vertigo con afectacion vegetativa,19:59
+384,Cris,Jermey,Urgencias psiquiatricas,5:50
+385,Laurel,Simonard,Hipertension arterial,19:43
+386,Emylee,Careswell,Urgencias psiquiatricas,18:43
+387,Mariellen,Grierson,Odontalgias,8:02
+388,Maegan,Duxbury,No urgente,20:58
+389,Teodora,Caillou,Isquemia,7:39
+390,Roley,Warnock,No urgente,6:45
+391,Gipsy,Derrington,Hemorragia digestiva,21:29
+392,Anestassia,Baugh,Hipertension arterial,3:59
+393,Moe,Mongeot,Paresia,14:25
+394,Odo,Rowet,Hipertension arterial,13:24
+395,Dalia,Aronov,Urgencias psiquiatricas,20:35
+396,Ashleigh,Rontsch,Politraumatismo grave,17:06
+397,Chickie,Poplee,Politraumatismo grave,2:10
+398,Walker,Mizen,Hemorragia digestiva,1:16
+399,Rubie,Cream,Coma,21:07
+400,Wang,Bailess,Vertigo con afectacion vegetativa,20:51
+401,Thane,Gerry,Hipertension arterial,9:11
+402,Nikolaos,Wadwell,Vertigo con afectacion vegetativa,9:22
+403,Hussein,Debell,Cefalea brusca,4:20
+404,Wernher,China,Vertigo con afectacion vegetativa,17:10
+405,Hillel,Batter,Dolores inespecificos leves,7:50
+406,Blinnie,Tomanek,Hemorragia digestiva,3:22
+407,Tallie,Quye,Urgencias psiquiatricas,18:58
+408,Lon,Warrior,Urgencias psiquiatricas,22:28
+409,Marga,Beagles,Vertigo con afectacion vegetativa,8:24
+410,Flori,Khristyukhin,Coma,14:57
+411,Arlene,Broseke,Urgencias psiquiatricas,22:12
+412,Hartley,Stockle,Politraumatismo grave,12:08
+413,Markus,Morbey,Paresia,3:46
+414,Vin,Atchly,No urgente,3:14
+415,Walther,Gilmartin,Hipertension arterial,4:22
+416,Nicoline,Skirvin,Cefalea brusca,19:20
+417,Noell,Quenby,Dolores inespecificos leves,2:30
+418,Rafi,McGaugie,Sincope,3:29
+419,Gracia,Megainey,No urgente,20:15
+420,Connie,Read,Isquemia,6:56
+421,Rolland,Ticehurst,Odontalgias,20:50
+422,Nike,Jaouen,Convulsion,22:12
+423,Calv,Ewbank,Hemorragia digestiva,2:06
+424,Man,Tandey,Sincope,15:34
+425,Gerhardt,Dunston,Convulsion,4:51
+426,Emelyne,Rosentholer,Vertigo con afectacion vegetativa,4:45
+427,Christian,Fetherston,Otalgias,9:08
+428,Fons,Tesdale,Taumatismos,10:27
+429,Sherri,Kennford,Hemorragia digestiva,1:47
+430,Prudy,Manby,No urgente,22:35
+431,Catlin,Beeston,Urgencias psiquiatricas,21:48
+432,Rodney,Blenkhorn,Odontalgias,13:51
+433,Maryl,Steaning,Isquemia,12:34
+434,Maitilde,Gedney,Convulsion,9:09
+435,Bartholomew,Clay,Hemorragia digestiva,5:52
+436,Saxe,Towey,Odontalgias,21:47
+437,Gerik,Kobu,Urgencias psiquiatricas,19:42
+438,Laurence,Deguara,Hipertension arterial,14:01
+439,Pansy,Jennions,Sincope,5:00
+440,Carrol,Delle,Coma,7:59
+441,Gerry,Sprott,Hemorragia digestiva,12:30
+442,Calypso,Graybeal,Cefalea brusca,0:54
+443,Loralyn,Persey,Vertigo con afectacion vegetativa,23:57
+444,Hamil,Hazell,Cefalea brusca,19:53
+445,Karia,MacGillivrie,Isquemia,15:25
+446,Gerianna,Dunan,Otalgias,19:52
+447,Carmine,Gulleford,Isquemia,0:27
+448,Marcile,Josupeit,Isquemia,15:30
+449,Guilbert,Askell,Isquemia,2:59
+450,Anne-marie,Leetham,Dolores inespecificos leves,6:30
+451,Delano,Eneas,Sincope,23:35
+452,Leeann,Linklet,Vertigo con afectacion vegetativa,1:47
+453,Daisie,Gunning,Otalgias,19:50
+454,Dasha,Mc Caughen,Hipertension arterial,5:19
+455,Gavra,McCaw,Otalgias,7:17
+456,Gertrude,Newnham,Vertigo con afectacion vegetativa,0:26
+457,Harcourt,Tibbotts,No urgente,17:26
+458,Annabelle,Normabell,Cefalea brusca,14:19
+459,Peterus,Cockton,Hipertension arterial,7:52
+460,Berny,Vampouille,No urgente,20:40
+461,Darren,Colleton,Hemorragia digestiva,7:30
+462,Allister,Gage,Taumatismos,12:50
+463,Nikolia,Elvy,Sincope,19:55
+464,Lynnett,Hartil,Isquemia,23:40
+465,Anne-corinne,Eakin,Paresia,5:52
+466,Bayard,Cisco,Odontalgias,16:27
+467,Klaus,Zannini,Otalgias,10:29
+468,Gerhard,Kocher,Vertigo con afectacion vegetativa,23:46
+469,Dario,Kenwrick,Politraumatismo grave,22:35
+470,Taddeusz,Buttfield,Urgencias psiquiatricas,11:59
+471,Zachariah,Dohmer,Sincope,16:36
+472,Augusto,Reolfi,Urgencias psiquiatricas,16:53
+473,Caye,McGrale,Hipertension arterial,6:42
+474,Chuck,Izhaky,Vertigo con afectacion vegetativa,16:56
+475,Georgy,Yeates,Urgencias psiquiatricas,14:59
+476,Scarface,Trime,Vertigo con afectacion vegetativa,19:24
+477,Lorne,Gaughan,Convulsion,4:35
+478,Linus,Andrey,Taumatismos,2:03
+479,Helen-elizabeth,Marrison,Otalgias,18:03
+480,Horacio,Geroldini,Hemorragia digestiva,10:14
+481,Gilly,Loadman,Paresia,23:07
+482,Lorinda,Gravet,Isquemia,17:43
+483,Madge,Malham,Taumatismos,7:59
+484,Blair,D'Agostini,Paresia,5:22
+485,Guglielma,Gleader,Coma,21:59
+486,Mattias,McKay,Politraumatismo grave,19:19
+487,Jami,Garcia,Taumatismos,11:41
+488,De,Skellen,Otalgias,5:01
+489,Molli,Pallis,Cefalea brusca,9:47
+490,Umberto,Aaronson,Coma,12:12
+491,Alberta,Buxsey,Taumatismos,11:06
+492,Towney,Kose,Dolores inespecificos leves,9:34
+493,Isac,O'Kane,Taumatismos,9:14
+494,Fitzgerald,Paulino,Urgencias psiquiatricas,11:39
+495,Krishna,Aldwich,Vertigo con afectacion vegetativa,17:28
+496,Vickie,Wedderburn,Cefalea brusca,8:29
+497,Whitaker,Knutsen,Coma,5:49
+498,Janey,Rieme,Isquemia,0:42
+499,Reinold,Jacobssen,Paresia,23:51
+500,Shirley,Avrahamoff,Sincope,7:02
