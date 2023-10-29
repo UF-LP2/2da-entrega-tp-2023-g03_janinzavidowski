@@ -1,8 +1,8 @@
 from Paciente import cPaciente
 
 class cEnfermero:
-    def __int__(self, DNI: str, Nombre: str, Apellido: str, Turno_laboral: str):
-        self.DNI = DNI
+    def __int__(self, ID: int, Nombre: str, Apellido: str, Turno_laboral: int):
+        self.ID = ID
         self.Nombre = Nombre
         self.Apellido = Apellido
         self.Turno_laboral = Turno_laboral

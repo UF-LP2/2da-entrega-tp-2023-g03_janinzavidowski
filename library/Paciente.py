@@ -1,6 +1,6 @@
 from datetime import datetime
 class cPaciente:
-    def __init__ (self, DNI: str, Nombre:str, Apellido:str, Sintoma: str, Hllegada: int, Hactual: int, Color: str, Tiempo_max:int, Puntos: int):
+    def __init__ (self, DNI: str, Nombre:str, Apellido:str, Sintoma: str, Hllegada: float, Hactual: float, Color: str, Tiempo_max:int, Puntos: int):
         self.DNI = DNI
         self.Nombre = Nombre
         self.Apellido = Apellido
@@ -10,3 +10,6 @@ class cPaciente:
         self.Color = Color
         self.Tiempo_max = Tiempo_max
         self.Puntos = Puntos
+
+    def tiempo(self):
+        return self.Hllegada - self.Hactual
