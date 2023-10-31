@@ -1,4 +1,4 @@
-from Paciente import cPaciente
+from paciente import cPaciente
 import csv
 def cargar_pacientes_desde_csv(PacientesRandom):
     lista_pacientes_archivo = []
@@ -14,4 +14,3 @@ def cargar_pacientes_desde_csv(PacientesRandom):
             paciente = cPaciente(id, first_name, last_name, sintomas, horario_entrada)
             lista_pacientes_archivo.append(paciente)
     return lista_pacientes_archivo
-

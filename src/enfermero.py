@@ -1,4 +1,4 @@
-from Paciente import cPaciente
+from paciente import cPaciente
 import csv
 import random
 
@@ -59,3 +59,37 @@ class cEnfermero:
                 listapacientes.append(pac)
 
         return 0
+
+    def ordenar_mergesort(lista_pacientes_archivo):
+        if len(lista_pacientes_archivo) <= 1:  # Caso base: si la lista tiene 0 o 1 elementos, ya está ordenada
+            return lista_pacientes_archivo
+
+        medio = len(lista_pacientes_archivo) // 2
+        lista_izq = lista_pacientes_archivo[:medio]
+        lista_der = lista_pacientes_archivo[medio:]
+
+        lista_izq = ordenar_mergesort(lista_izq)  # Llamada recursiva para ordenar la mitad izquierda
+        lista_der = ordenar_mergesort(lista_der)  # Llamada recursiva para ordenar la mitad derecha
+
+        i = j = k = 0
+
+        while i < len(lista_izq) and j < len(lista_der):
+            if lista_izq[i].tiempo() < lista_der[j].tiempo():
+                lista_pacientes_archivo[k] = lista_izq[i]
+                i += 1
+            else:
+                lista_pacientes_archivo[k] = lista_der[j]
+                j += 1
+            k += 1
+
+        while i < len(lista_izq):
+            lista_pacientes_archivo[k] = lista_izq[i]
+            i += 1
+            k += 1
+
+        while j < len(lista_der):
+            lista_pacientes_archivo[k] = lista_der[j]
+            j += 1
+            k += 1
+
+        return lista_pacientes_archivo

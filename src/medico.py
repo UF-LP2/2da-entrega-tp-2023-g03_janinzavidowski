@@ -1,5 +1,5 @@
-from Enfermero import cEnfermero
-from Paciente import cPaciente
+from enfermero import cEnfermero
+from paciente import cPaciente
 class cMedico:
 
     def __int__(self, DNI: str, Nombre: str, Apellido: str, ListaPac: list[cPaciente]):
