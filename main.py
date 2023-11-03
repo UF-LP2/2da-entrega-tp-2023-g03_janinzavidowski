@@ -9,7 +9,7 @@ def main() -> None:
   paciente_azar = enfermero.seleccionar_paciente_azar(lista_pacientes_archivo)
 
   # Llamar a la función OrdenarGreedy con el paciente seleccionado
-  enfermero.OrdenarGreedy(enfermero.listapacientes, paciente_azar) # PREGUNTAR A SOL
+  enfermero.ordenar_mergesort(enfermero.listapacientes) # PREGUNTAR A SOL
 if __name__ == '__main__':
   cEnfermero
 

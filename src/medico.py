@@ -8,3 +8,6 @@ class cMedico:
         self.Apellido = Apellido
         self.ListaPac = ListaPac
 
+    def asignarMedico(self):
+
+    def atenderpaciente(self,):
