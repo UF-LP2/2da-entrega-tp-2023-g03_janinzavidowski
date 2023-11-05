@@ -3,6 +3,7 @@ import csv
 import random
 
 class cEnfermero:
+
     listapacientes = []
     def __init__(self, ID: int, Nombre: str, Apellido: str, Turno_laboral: int):
         self.ID = ID
