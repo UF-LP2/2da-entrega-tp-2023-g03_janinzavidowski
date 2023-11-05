@@ -1,6 +1,7 @@
 from enfermero import cEnfermero
 from paciente import cPaciente
 class cMedico:
+
     def __init__(self, DNI: str, Nombre: str, Apellido: str, Ocupado: bool = False):
         self.DNI = DNI
         self.Nombre = Nombre
