@@ -12,7 +12,7 @@ class cEnfermero:
 
 
     def AsignarColor (self, pac: cPaciente) -> None:
-        try:
+
             if pac.Sintoma == "Politraumatismo grave" :
                 pac.Color = "Rojo"
                 pac.Puntos = 50
@@ -33,8 +33,8 @@ class cEnfermero:
                 pac.Color = "Azul"
                 pac.Puntos = 0
                 pac.Tiempo_max = 240
-        except: #sintoma no valido
-            print("Síntoma no válido para asignar color.")
+            else: #sintoma no valido
+                return("Síntoma no válido para asignar color.")
 
 
     def seleccionar_paciente_azar(self,lista_pacientes_archivo):  # Función para seleccionar un paciente al azar
@@ -53,7 +53,7 @@ class cEnfermero:
             listapacientes.append(pac)
 
 
-    def ordenar_mergesort(listapacientes):
+    def ordenar_mergesort(self,listapacientes):
         if len(listapacientes) <= 1:  # Caso base: si la lista tiene 0 o 1 elementos, ya está ordenada
             return listapacientes
 
@@ -61,8 +61,8 @@ class cEnfermero:
         lista_izq = listapacientes[:medio]
         lista_der = listapacientes[medio:]
 
-        lista_izq = ordenar_mergesort(lista_izq)  # Llamada recursiva para ordenar la mitad izquierda
-        lista_der = ordenar_mergesort(lista_der)  # Llamada recursiva para ordenar la mitad derecha
+        lista_izq = self.ordenar_mergesort(lista_izq)  # Llamada recursiva para ordenar la mitad izquierda
+        lista_der = self.ordenar_mergesort(lista_der)  # Llamada recursiva para ordenar la mitad derecha
 
         i = j = k = 0
 
@@ -86,3 +86,8 @@ class cEnfermero:
             k += 1
 
         return listapacientes
+
+    def enviarpaciente(self, listapacientes):
+        auxiliar=listapacientes[0]
+        del listapacientes[0]
+        return auxiliar

@@ -1,4 +1,4 @@
-from Enfermero import cEnfermero
+import src.enfermero
 
 def test_rojo():
     paciente = cPaciente(4322, "Juan", "Lopez", "Politraumatismo grave", 20.30, 21.40, "Rojo", 0, 50)
