@@ -49,3 +49,18 @@ def test_except():
         assert str(e) == "Síntoma no válido para asignar color."
     else:
         assert False, "Se esperaba una excepción, pero no se generó."
+
+def test_seleccionar_paciente_azar():
+    pacientes_muestra = [
+        cPaciente(1, "Pac1", "Sintoma1"),
+        cPaciente(2, "Pac2", "Sintoma2"),
+        cPaciente(3, "Pac3", "Sintoma3"),
+        cPaciente(4, "Pac4", "Sintoma4"),
+    ]
+
+    # Llamar a la función para seleccionar un paciente al azar
+    enfermero = cEnfermero(1, "Enfermero1", "Apellido1", 1)
+    paciente_seleccionado = enfermero.seleccionar_paciente_azar(pacientes_muestra)
+
+    # Verificar que el paciente seleccionado esté en la lista de muestra
+    assert paciente_seleccionado in pacientes_muestra
