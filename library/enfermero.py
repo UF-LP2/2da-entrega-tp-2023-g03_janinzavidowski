@@ -1,9 +1,11 @@
 from paciente import cPaciente
+from medico import cMedico
 import csv
 import random
 
 class cEnfermero:
 
+    listamedicos = []
     listapacientes = []
     def __init__(self, ID: int, Nombre: str, Apellido: str, Turno_laboral: int):
         self.ID = ID
@@ -48,9 +50,7 @@ class cEnfermero:
                 return True
             return False
     def agregarpaciente(self, pac:cPaciente, listapacientes):
-        if (self.buscarpaciente()==False): #chequeo que no este en la lista
-            if(pac.Color == "Rojo"):
-                listapacientes.insert(0,pac)
+        if (self.buscarpaciente(listapacientes, pac)==False): #chequeo que no este en la lista
             listapacientes.append(pac)
 
 
@@ -67,8 +67,8 @@ class cEnfermero:
 
         i = j = k = 0
 
-        while i < len(lista_izq) and j < len(lista_der):
-            if lista_izq[i].tiempo() < lista_der[j].tiempo():
+        while i < len(lista_izq) and j < len(lista_der) :
+            if lista_izq[i].tiempo() < lista_der[j].tiempo() or (lista_izq[i].tiempo() == lista_der[j].tiempo() and lista_izq[i].Puntos < lista_der[j].Puntos):
                 listapacientes[k] = lista_izq[i]
                 i += 1
             else:
@@ -92,3 +92,21 @@ class cEnfermero:
         auxiliar=listapacientes[0]
         del listapacientes[0]
         return auxiliar
+
+    def cambiarturnosmedicos(self, listamedicos_archivos):
+        if (hora == 0)
+            sublista_medicos = listamedicos_archivos[:6]
+            return sublista_medicos
+        if (hora == 8)
+            sublista_medicos = listamedicos_archivos[6:12]
+            return sublista_medicos
+        if (hora == 16)
+            sublista_medicos = listamedicos_archivos[12:]
+            return sublista_medicos
+    def asignarMedico(self,sublista_medicos):
+        for i in range(len(sublista_medicos) - 1):
+            if(sublista_medicos[i].Ocupado==False):
+                sublista_medicos[i].Ocupado == True
+                return sublista_medicos[i]
+            else:
+                return None
