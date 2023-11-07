@@ -1,4 +1,3 @@
-
 class cPaciente:
     def __init__ (self, ID: str, Nombre:str, Apellido:str, Sintoma: str, Hllegada: float, Hactual: float, Color: str, Tiempo_max:int, Puntos: int):
         self.ID = ID

@@ -1,4 +1,3 @@
-from paciente import cPaciente
 from medico import cMedico
 import csv
 import random
