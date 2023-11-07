@@ -90,18 +90,8 @@ class cEnfermero:
     def enviarpaciente(self, listapacientes):
         auxiliar=listapacientes[0]
         del listapacientes[0]
-        return auxiliar
+        return
 
-    def cambiarturnosmedicos(self, listamedicos_archivos):
-        if (hora == 0)
-            sublista_medicos = listamedicos_archivos[:6]
-            return sublista_medicos
-        if (hora == 8)
-            sublista_medicos = listamedicos_archivos[6:12]
-            return sublista_medicos
-        if (hora == 16)
-            sublista_medicos = listamedicos_archivos[12:]
-            return sublista_medicos
     def asignarMedico(self,sublista_medicos):
         for i in range(len(sublista_medicos) - 1):
             if(sublista_medicos[i].Ocupado==False):
@@ -109,3 +99,10 @@ class cEnfermero:
                 return sublista_medicos[i]
             else:
                 return None
+
+    def actualizartiempo(self, listapacientes, tiempo):
+        for i in range(len(listapacientes)):
+            listapacientes[i].Tiempo_max = listapacientes[i].Tiempo_max - tiempo
+            return listapacientes
+
+
