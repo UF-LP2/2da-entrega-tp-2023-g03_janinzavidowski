@@ -49,7 +49,7 @@ class cEnfermero:
                 return True
             return False
     def agregarpaciente(self, pac:cPaciente, listapacientes):
-        if (self.buscarpaciente(listapacientes, pac)==False): #chequeo que no este en la lista
+        if (self.buscarpaciente(listapacientes, pac)==False):#chequeo que no este en la lista
             listapacientes.append(pac)
 
 
@@ -93,12 +93,11 @@ class cEnfermero:
         return
 
     def asignarMedico(self,sublista_medicos):
-        for i in range(len(sublista_medicos) - 1):
+        for i in range(len(sublista_medicos)):
             if(sublista_medicos[i].Ocupado==False):
                 sublista_medicos[i].Ocupado == True
                 return sublista_medicos[i]
-            else:
-                return None
+        return None
 
     def actualizartiempo(self, listapacientes, tiempo):
         for i in range(len(listapacientes)):

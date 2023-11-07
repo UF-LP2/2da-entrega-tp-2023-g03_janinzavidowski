@@ -22,13 +22,20 @@ def main() -> None:
 
     if(tiempo>=1150 or tiempo<300):
       enfermero = lista_enfermeros[0]
+      paciente1 = enfermero.seleccionar_paciente_azar(lista_pacientes_archivo)
+      enfermero.AsignarColor(paciente1)
+      tiempo = tiempo+3
+      enfermero.agregarpaciente(paciente1, listapacientes)
+      enfermero.actualizar_tiempo(listapacientes, tiempo)
+      enfermero.ordenar_mergesort(listapacientes)
+      medicoaux = enfermero.asignarMedico(sublista_medicos)
+      if medicoaux is not None:
+        paciente1=enfermero.enviarpaciente(listapacientes)
+        medicoaux.atenderpaciente(paciente1)
 
+      tiempo = tiempo+4
 
-    # Seleccionar un paciente al azar
-    paciente_azar = enfermero.seleccionar_paciente_azar(lista_pacientes_archivo)
-    enfermero.OrdenarGreedy(enfermero.listapacientes, paciente_azar)
-
-    if (tiempo >= 300 and tiempo < 500): #en este horario tengo dos medicos
+    if (tiempo >= 300 and tiempo < 500): #en este horario tengo dos enfermeros
       enfermero1 = lista_enfermeros[1]
       enfermero2 = lista_enfermeros[2]
       paciente1= enfermero1.seleccionar_paciente_azar(lista_pacientes_archivo)
@@ -47,7 +54,7 @@ def main() -> None:
         enfermero1.agregarpaciente(paciente1,listapacientes)
         enfermero2.agregarpaciente(paciente2, listapacientes)
 
-        enfermero1.actualizar_tiempo(listapacientes)
+        enfermero1.actualizar_tiempo(listapacientes,tiempo)
 
         enfermero1.ordenar_mergesort(listapacientes)
 
@@ -106,8 +113,56 @@ def main() -> None:
         medicoaux.atenderpaciente(pacienteaux)
         tiempo = tiempo + 4
 
+    if (tiempo >= 800 and tiempo < 1150): #en este horario tengo tres enfermeros
+      enfermero1 = lista_enfermeros[8]
+      enfermero2 = lista_enfermeros[9]
+      enfermero3 = lista_enfermeros[10]
+
+
+      paciente1= enfermero1.seleccionar_paciente_azar(lista_pacientes_archivo)
+      paciente2 = enfermero2.seleccionar_paciente_azar(lista_pacientes_archivo)
+      paciente3 = enfermero3.seleccionar_paciente_azar(lista_pacientes_archivo)
+
+
+      proceso1= multiprocessing.Process(target=enfermero1.AsignarColor, args=(paciente1,))
+      proceso2= multiprocessing.Process(target=enfermero2.AsignarColor, args=(paciente2,))
+      proceso3 = multiprocessing.Process(target=enfermero3.AsignarColor, args=(paciente3,))
+
+      try:
+          proceso1.start()
+          proceso2.start()
+          proceso3.start()
+
+          proceso1.join()
+          proceso2.join()
+          proceso3.join()
+      except Exception:
+
+        tiempo = tiempo+3
+        enfermero1.agregarpaciente(paciente1,listapacientes)
+        enfermero2.agregarpaciente(paciente2, listapacientes)
+        enfermero3.agregarpaciente(paciente3,listapacientes)
+
+        enfermero1.actualizar_tiempo(listapacientes,tiempo)
+
+        enfermero1.ordenar_mergesort(listapacientes)
+
+        medicoaux1 = enfermero1.asignarMedico(sublista_medicos)
+        if medicoaux1 is not None:
+          pacienteaux1 = enfermero1.enviarpaciente(listapacientes)
+          medicoaux1.atenderpaciente(pacienteaux1)
+
+        medicoaux2 = enfermero2.asignarMedico(sublista_medicos)
+        if medicoaux2 is not None:
+          pacienteaux2 = enfermero2.enviarpaciente(listapacientes)
+          medicoaux2.atenderpaciente(pacienteaux2)
+
+        medicoaux3 = enfermero3.asignarMedico(sublista_medicos)
+        if medicoaux3 is not None:
+          pacienteaux3 = enfermero3.enviarpaciente(listapacientes)
+          medicoaux3.atenderpaciente(pacienteaux3)
+
+      tiempo = tiempo + 4
 
 
 if __name__ == '__main__':
-
-
