@@ -9,6 +9,5 @@ class cPaciente:
         self.Color = Color
         self.Tiempo_max = Tiempo_max
         self.Puntos = Puntos
-
     def tiempo(self):
         return self.Hllegada - self.Hactual
