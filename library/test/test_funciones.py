@@ -1,6 +1,4 @@
-from enfermero import cEnfermero
-from paciente import cPaciente
-from medico import cMedico
+from enfermero import cEnfermero, cPaciente, cMedico
 
 
 def test_rojo():

@@ -1,9 +1,6 @@
-import sys
-sys.path.append("..")
+from enfermero import cEnfermero, cPaciente, cMedico
 
-from enfermero import cEnfermero
-
-def test_rojo():
+""" def test_rojo():
     paciente = cPaciente(4322, "Juan", "Lopez", "Politraumatismo grave", 20.30, 21.40, "Rojo", 0, 50)
     enf = cEnfermero(3299, "Camila", "Garcia", 16)
 
@@ -155,4 +152,4 @@ def test_todosocupados():
     enfermero = cEnfermero()
     # Intenta asignar un médico cuando todos están ocupados
     medico_asignado = enfermero.asignarMedico(lista_medicos)
-    assert medico_asignado is None  # Verifica que no se haya asignado ningún médico
+    assert medico_asignado is None  # Verifica que no se haya asignado ningún médico """

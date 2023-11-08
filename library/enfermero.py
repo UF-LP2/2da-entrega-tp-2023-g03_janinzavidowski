@@ -1,6 +1,6 @@
-import random
 import csv
-from medico import cMedico
+import random
+from medico import cMedico, cPaciente
 
 class cEnfermero:
 

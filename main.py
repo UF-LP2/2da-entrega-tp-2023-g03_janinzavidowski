@@ -233,4 +233,5 @@ def main() -> None:
   app = InterfazPacientes(listapacientes)
   app.mainloop()
 
-  if __name__ == '__main__':
+if __name__ == '__main__':
+  ...
