@@ -6,6 +6,7 @@ import multiprocessing
 def main() -> None:
 
   global tiempo
+  tiempo = 0
 
   lista_enfermeros = leerenfermeros("enfermerosrandom")
   lista_pacientes_archivo = cargar_pacientes_desde_csv("pacientes.csv")
@@ -13,7 +14,7 @@ def main() -> None:
   listapacientes = []
 
   for tiempo in range (1200):
-    if(tiempo>=0 and tiempo<400):
+    if(tiempo>=0 and tiempo<400): #cada 8 horas cambian los turnos
       sublista_medicos = lista_medicos[:6]
     if(tiempo>=400 and tiempo<800):
       sublista_medicos = lista_medicos[6:12]
@@ -58,12 +59,19 @@ def main() -> None:
 
         enfermero1.ordenar_mergesort(listapacientes)
 
-        medicoaux = enfermero1.asignarMedico(sublista_medicos)
-        pacienteaux= enfermero1.enviarpaciente(listapacientes)
-        medicoaux.atenderpaciente(pacienteaux)
+        medicoaux1 = enfermero1.asignarMedico(sublista_medicos)
+        if medicoaux1 is not None:
+          pacienteaux1= enfermero1.enviarpaciente(listapacientes)
+          medicoaux1.atenderpaciente(pacienteaux1)
+
+        medicoaux2= enfermero2.asignarMedico(sublista_medicos)
+        if medicoaux2 is not None:
+          pacienteaux2= enfermero2.enviarpaciente(listapacientes)
+          medicoaux2.atenderpaciente(pacienteaux2)
+
         tiempo = tiempo + 4
 
-    if (tiempo >= 500 and tiempo < 800): #en este horario tengo dos medicos
+    if (tiempo >= 500 and tiempo < 800): #en este horario tengo cinco enfermeros
       enfermero1 = lista_enfermeros[3]
       enfermero2 = lista_enfermeros[4]
       enfermero3 = lista_enfermeros[5]
@@ -108,9 +116,27 @@ def main() -> None:
 
         enfermero1.ordenar_mergesort(listapacientes)
 
-        medicoaux = enfermero1.asignarMedico(sublista_medicos)
-        pacienteaux= enfermero1.enviarpaciente(listapacientes)
-        medicoaux.atenderpaciente(pacienteaux)
+        medicoaux1 = enfermero1.asignarMedico(sublista_medicos)
+        if medicoaux1 is not None:
+          pacienteaux1= enfermero1.enviarpaciente(listapacientes)
+          medicoaux1.atenderpaciente(pacienteaux1)
+        medicoaux2 = enfermero2.asignarMedico(sublista_medicos)
+        if medicoaux2 is not None:
+          pacienteaux2= enfermero2.enviarpaciente(listapacientes)
+          medicoaux2.atenderpaciente(pacienteaux2)
+        medicoaux3 = enfermero3.asignarMedico(sublista_medicos)
+        if medicoaux3 is not None:
+          pacienteaux3= enfermero3.enviarpaciente(listapacientes)
+          medicoaux3.atenderpaciente(pacienteaux3)
+        medicoaux4 = enfermero4.asignarMedico(sublista_medicos)
+        if medicoaux4 is not None:
+          pacienteaux4= enfermero4.enviarpaciente(listapacientes)
+          medicoaux4.atenderpaciente(pacienteaux4)
+        medicoaux5 = enfermero5.asignarMedico(sublista_medicos)
+        if medicoaux5 is not None:
+          pacienteaux5= enfermero5.enviarpaciente(listapacientes)
+          medicoaux5.atenderpaciente(pacienteaux5)
+
         tiempo = tiempo + 4
 
     if (tiempo >= 800 and tiempo < 1150): #en este horario tengo tres enfermeros

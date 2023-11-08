@@ -1,7 +1,7 @@
 import sys
 sys.path.append("..")
 
-from library.enfermero import cEnfermero
+from enfermero import cEnfermero
 
 def test_rojo():
     paciente = cPaciente(4322, "Juan", "Lopez", "Politraumatismo grave", 20.30, 21.40, "Rojo", 0, 50)

@@ -1,4 +1,4 @@
-from src.paciente import cPaciente
+from paciente import cPaciente
 class cMedico:
 
     def __init__(self, DNI: str, Nombre: str, Apellido: str, Ocupado: bool = False):
@@ -9,5 +9,5 @@ class cMedico:
 
     def atenderpaciente(self,pac:cPaciente):
         #incrementar tiempo
-        self.Ocupado==False
+        self.Ocupado == False
         return 0
