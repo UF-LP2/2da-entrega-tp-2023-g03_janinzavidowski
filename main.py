@@ -3,6 +3,7 @@ from library.enfermero import cEnfermero
 from library.archivos import leerenfermeros
 from library.archivos import leermedicos
 import multiprocessing
+import tkinter as tk
 def main() -> None:
 
   global tiempo
@@ -190,5 +191,46 @@ def main() -> None:
 
       tiempo = tiempo + 4
 
+  class InterfazPacientes(tk.Tk):
+    def __init__(self, listapacientes):
+      super().__init__()
 
-if __name__ == '__main__':
+      self.listapacientes = listapacientes
+      self.indice_paciente_actual = 0
+
+      self.title("Interfaz de Pacientes")
+
+      self.label_nombre = tk.Label(self, text="Nombre:")
+      self.label_sintoma = tk.Label(self, text="Síntoma:")
+      self.label_color = tk.Label(self, text="Color:")
+      self.label_tiempo_max = tk.Label(self, text="Tiempo Máximo:")
+
+      self.label_nombre.pack()
+      self.label_sintoma.pack()
+      self.label_color.pack()
+      self.label_tiempo_max.pack()
+
+      self.button_siguiente = tk.Button(self, text="Siguiente", command=self.mostrar_siguiente_paciente)
+      self.button_siguiente.pack()
+
+      self.mostrar_paciente_actual()
+
+    def mostrar_paciente_actual(self):
+      if self.indice_paciente_actual < len(self.listapacientes):
+        paciente_actual = self.listapacientes[self.indice_paciente_actual]
+
+        self.label_nombre.config(text=f"Nombre: {paciente_actual.Nombre} {paciente_actual.Apellido}")
+        self.label_sintoma.config(text=f"Síntoma: {paciente_actual.Sintoma}")
+        self.label_color.config(text=f"Color: {paciente_actual.Color}")
+        self.label_tiempo_max.config(text=f"Tiempo Máximo: {paciente_actual.Tiempo_max}")
+      else:
+        self.label_nombre.config(text="No hay más pacientes")
+
+    def mostrar_siguiente_paciente(self):
+      self.indice_paciente_actual += 1
+      self.mostrar_paciente_actual()
+
+  app = InterfazPacientes(listapacientes)
+  app.mainloop()
+
+  if __name__ == '__main__':

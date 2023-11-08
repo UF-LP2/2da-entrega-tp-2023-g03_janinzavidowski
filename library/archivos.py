@@ -1,5 +1,4 @@
-
-from library.medico import cMedico
+from enfermero import cEnfermero
 import csv
 def cargar_pacientes_desde_csv(PacientesRandom): #nos dimos cuenta que la hora de llegada no la queremos asi que no la leemos y listo
     try:
