@@ -19,15 +19,15 @@ class cEnfermero:
                 pac.Color = "Rojo"
                 pac.Puntos = 50
                 pac.Tiempo_max = 0
-            elif pac.Sintoma == "Coma" or "Convulsion" or "Hemorragia digestiva" or "Isquemia" :
+            elif pac.Sintoma == "Coma" or pac.Sintoma == "Convulsion" or pac.Sintoma == "Hemorragia digestiva" or pac.Sintoma == "Isquemia":
                 pac.Color = "Naranja"
                 pac.Puntos = 30
                 pac.Tiempo_max = 10
-            elif pac.Sintoma == "Cefalea brusca" or "Paresia" or "Hipertension arterial" or "Vertigo con afectacion vegetativa" or "Sincope" or "Urgencia psiquiatrica" :
+            elif pac.Sintoma == "Cefalea brusca" or pac.Sintoma == "Paresia" or pac.Sintoma == "Hipertension arterial" or pac.Sintoma == "Vertigo con afectacion vegetativa" or pac.Sintoma == "Sincope" or pac.Sintoma == "Urgencia psiquiatrica" :
                 pac.Color = "Amarillo"
                 pac.Puntos = 20
                 pac.Tiempo_max = 60
-            elif pac.Sintoma == "Otalgia" or "Odontalgia" or "Dolores inespecificos leves" or "Traumatismos" or "Esguince":
+            elif pac.Sintoma == "Otalgia" or pac.Sintoma == "Odontalgia" or pac.Sintoma == "Dolores inespecificos leves" or pac.Sintoma == "Traumatismos" or pac.Sintoma == "Esguince":
                 pac.Color = "Verde"
                 pac.Puntos = 10
                 pac.Tiempo_max = 120
@@ -35,19 +35,19 @@ class cEnfermero:
                 pac.Color = "Azul"
                 pac.Puntos = 0
                 pac.Tiempo_max = 240
-            else: #sintoma no valido
-                return("Síntoma no válido para asignar color.")
+            else :
+                raise ValueError("Síntoma no válido para asignar color.")
 
 
     def seleccionar_paciente_azar(self,lista_pacientes_archivo):  # Función para seleccionar un paciente al azar
         return random.choice(lista_pacientes_archivo)
 
     def buscarpaciente(self,listapacientes: list[cPaciente], pac:cPaciente)->bool: #chequeamos que el paciente que vamos a agregar no se encuentre en la lista
-        for i in range(len(listapacientes) - 1):
+        for i in range(len(listapacientes) ):
 
-            if pac.ID() == listapacientes[i].ID():
+            if pac.ID == listapacientes[i].ID:
                 return True
-            return False
+        return False
     def agregarpaciente(self, pac:cPaciente, listapacientes):
         if (self.buscarpaciente(listapacientes, pac)==False):#chequeo que no este en la lista
             listapacientes.append(pac)
@@ -67,7 +67,7 @@ class cEnfermero:
         i = j = k = 0
 
         while i < len(lista_izq) and j < len(lista_der) :
-            if lista_izq[i].tiempo() < lista_der[j].tiempo() or (lista_izq[i].tiempo() == lista_der[j].tiempo() and lista_izq[i].Puntos < lista_der[j].Puntos):
+            if lista_izq[i].Tiempo_max < lista_der[j].Tiempo_max or (lista_izq[i].Tiempo_max == lista_der[j].Tiempo_max and lista_izq[i].Puntos < lista_der[j].Puntos):
                 listapacientes[k] = lista_izq[i]
                 i += 1
             else:
@@ -95,7 +95,7 @@ class cEnfermero:
     def asignarMedico(self,sublista_medicos):
         for i in range(len(sublista_medicos)):
             if(sublista_medicos[i].Ocupado==False):
-                sublista_medicos[i].Ocupado == True
+                sublista_medicos[i].Ocupado = True
                 return sublista_medicos[i]
         return None
 

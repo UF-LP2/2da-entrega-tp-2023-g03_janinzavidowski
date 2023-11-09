@@ -51,10 +51,10 @@ def test_novalido():
     enf = cEnfermero(2274, "Ana", "López", 8)
     try:
         enf.AsignarColor(paciente)
-    except Exception as e:
+    except ValueError as e:
         assert str(e) == "Síntoma no válido para asignar color."
     else:
-        assert False, "Se esperaba una excepción, pero no se generó."
+        assert False, "Se esperaba una excepción, pero no se generó."        
 
 
 def test_seleccionar_paciente_azar():
@@ -124,7 +124,7 @@ def test_ordenar_mergesort():
 
     # Verificar si la lista se ordena
     for i in range(1, len(lista_ordenada)):
-        assert lista_ordenada[i - 1].tiempo <= lista_ordenada[i].tiempo
+        assert lista_ordenada[i - 1].Tiempo_max <= lista_ordenada[i].Tiempo_max
 
 
 def test_ordenar_tiempoigual():
@@ -137,11 +137,11 @@ def test_ordenar_tiempoigual():
     lista_ordenada = enfermero.ordenar_mergesort(lista_pacientes)
 
     for i in range(1, len(lista_ordenada)):
-        if lista_ordenada[i - 1].tiempo == lista_ordenada[i].tiempo:
+        if lista_ordenada[i - 1].Tiempo_max == lista_ordenada[i].Tiempo_max:
             # Si el tiempo es el mismo, verifica los puntos
             assert lista_ordenada[i - 1].puntos <= lista_ordenada[i].puntos
         else:
-            assert lista_ordenada[i - 1].tiempo <= lista_ordenada[i].tiempo
+            assert lista_ordenada[i - 1].Tiempo_max <= lista_ordenada[i].Tiempo_max
 
 
 def test_asignarMedico():
